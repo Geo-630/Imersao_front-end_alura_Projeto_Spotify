@@ -83,6 +83,10 @@
     border: 0;
 }
 
+.header__login .subscribe:hover{
+    text-decoration: underline;
+}
+
 .header__login .login {
     width: 100px;
     height: 48px;
@@ -136,12 +140,12 @@
 /* FIM SCROLL */
 
 .offer__list-item {
-    /* display: grid;
+    display: grid;
     justify-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 16px;
     gap: 16px;
-    margin-bottom: 16px; */
+    margin-bottom: 16px;
 
     /* CODIGO COM JS CALCULANDO OS CARDS POR COLUNA */
     display: grid;
